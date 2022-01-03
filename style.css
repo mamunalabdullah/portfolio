@@ -4,7 +4,6 @@
 }
 .profile{
     height: 100vh;
-    color: red;
     background-image: url("img/hotel-g8b2f662f8_1920.jpg");
     background-position: center;
     background-size: cover;
@@ -13,7 +12,11 @@
     justify-content: center;
     align-items: center;
 }
-.profile h3{
-    color: slateblue;
+.profile-items h1{
+    text-align: center;
+    color: red;
+}
+.profile-items h3{
+    text-align: center;
     
 }
