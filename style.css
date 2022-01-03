@@ -5,7 +5,10 @@
 .profile{
     height: 100vh;
     color: red;
-    background-color: silver;
+    background-image: url("img/hotel-g8b2f662f8_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
