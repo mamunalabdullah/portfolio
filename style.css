@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 45px;
+    font-size: 40px;
     text-transform: capitalize;
 }
 .colorful{
@@ -14,17 +14,17 @@ h3{
     color: #7735D8;
 }
 p{
-    text-align: justify;
     color: #64647F;
+    text-align: justify;
 }
-.top-banner{
+.flexible-container{
     display: flex;
-    background-image: url("img/top-banner.png");
-    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    padding: 0 5%;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 90%;
@@ -38,4 +38,39 @@ p{
     background-image: linear-gradient(#5E58DC, #7735D8);
     padding: 10px 40px;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience-items{
+    width: 45%;
+    margin: 0 2%;
+    padding: 0 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+#full-stack-ex{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 3
+}
+#baby-dev-ex{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 3
+}
+footer p{
+    text-align: center;
 }
